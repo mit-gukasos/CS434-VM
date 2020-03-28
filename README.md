@@ -6,7 +6,7 @@
 
 ## Download virtual machine appliance
 
-CS434-OracleSQL-W7x64VM.ova [11GB]
+CS434-OracleSQL-W7x64VM.ova [11GB]  
 *MD5*: 70e877301ee5a9a5ee8e3a7f5c1d8fce  
 
 * [Google Drive](https://drive.google.com/open?id=1q3cEDRtSLNcrzHjsAQ7H705WfBaCmVAj)  
