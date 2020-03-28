@@ -3,8 +3,9 @@
 * [MacOS](https://download.virtualbox.org/virtualbox/6.1.4/VirtualBox-6.1.4-136177-OSX.dmg)
 * [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
 
-## Download virtual machine appliance here:
-* [CS434-OracleSQL-W7x64VM.ova](https://studentlaccd-my.sharepoint.com/:u:/g/personal/gukasos_laccd_edu/EXG8mnINdJdOujL4aq_tA1kBxkoSHLGjOWqQI5xiH8f6gA?e=eb6QQ6) (11.5GB)
+## Download virtual machine appliance here (11GB):
+* Google Drive - [CS434-OracleSQL-W7x64VM.ova](https://drive.google.com/open?id=1q3cEDRtSLNcrzHjsAQ7H705WfBaCmVAj)
+* MS OneDrive - [CS434-OracleSQL-W7x64VM.ova](https://studentlaccd-my.sharepoint.com/:u:/g/personal/gukasos_laccd_edu/EXG8mnINdJdOujL4aq_tA1kBxkoSHLGjOWqQI5xiH8f6gA?e=eb6QQ6)
 
 ## Instructions:
 1) Download and install Virtualbox using one of the links above.
