@@ -22,7 +22,7 @@
 6) After the import process is complete, you will see your virutual machine instance appear on the left hand side of Virtualbox as **LA Mission CS434 - Oracle 12c - Windows 7 Enterprise x64 VM**. Click on it, and click **Start** on the main ribbon. ![](./img/start.png)
 7) After your machine boots, it is a good practice to take a snapshot. Snapshots are useful in case you break something, and want to quickly go back to last working state. The advantage of snapshots is they take only a few seconds to capture/recover. To take a snapshot, in a virtual machine window click on **Machine** -> **Take Snapshot** 
 ![](./img/snap.png) 
-In the new window give it a descriptive name (I used "Default State") and click OK. 
+In the new window give it a descriptive name (I used "Default State") and click OK.  
 ![](./img/snap2.png) 
 8) You are done! SQL Developer, SQL Plus shortcuts, and CS434-specific files are available on the desktop of the virtual machine. 
 9) When you are finished using virtual machine, in order to close it click on "Start" -> Shutdown
