@@ -6,12 +6,12 @@
 
 ## Download virtual machine appliance
 
-CS434-OracleSQL-W7x64VM.ova [11GB]  
-*MD5*: 70e877301ee5a9a5ee8e3a7f5c1d8fce  
-
 * [Google Drive](https://drive.google.com/open?id=1q3cEDRtSLNcrzHjsAQ7H705WfBaCmVAj)  
 * [Self-Hosted](http://academic.lamission.edu/cs434/CS434-OracleSQL-W7x64VM.ova)
 * [Microsoft OneDrive](https://studentlaccd-my.sharepoint.com/:u:/g/personal/gukasos_laccd_edu/EXG8mnINdJdOujL4aq_tA1kBxkoSHLGjOWqQI5xiH8f6gA?e=eb6QQ6)
+
+CS434-OracleSQL-W7x64VM.ova [11GB]  
+*MD5*: 70e877301ee5a9a5ee8e3a7f5c1d8fce  
 
 ## Instructions
 
@@ -24,7 +24,7 @@ CS434-OracleSQL-W7x64VM.ova [11GB]
 5) Depending on your computer you may need to modify some settings for the appliance.  
 ![appliance settings](./img/app_settings.png)
     **A**) Set the number of CPU cores to dedicate for the appliance. Standard practice is to assign half the system cores. If you're not sure how many cores to assign, 2 is a safe number to use.  
-    **B**) Set amount of RAM in megabytes. If your computer has 8+ GB total you can leave this value at default. If you have less than 8GB memory you can set it as low as 2500MB.
+    **B**) Set amount of RAM in megabytes. If your computer has 8+ GB total you can leave this value at default. If you have less than 8GB memory you can set it as low as 2500MB.  
     **C**) Base folder: folder where virtual machine will be saved to. Make sure you have at least 15GB of free space on the disk.  
     **D**) You *MUST* change this to "**Include all network adapter MAC addresses**"
 
@@ -33,10 +33,8 @@ CS434-OracleSQL-W7x64VM.ova [11GB]
 ![start appliance](./img/start.png)
 7) After your machine boots, it is a good practice to take a snapshot. Snapshots are useful in case you break something, and want to quickly go back to last working state. The advantage of snapshots is they take only a few seconds to capture/recover. To take a snapshot, in a virtual machine window click on **Machine** -> **Take Snapshot**  
 ![take snapshot](./img/snap.png)  
-
 In the new window give it a descriptive name (I used "Default State") and click OK.  
 ![name snapshot](./img/snap2.png)  
-
 8) You are done! SQL Developer, SQL Plus shortcuts, and CS434-specific files are available on the desktop of the virtual machine.  
 9) When you are finished using virtual machine, in order to close it click on "Start" -> Shutdown
 ![shutdown vm](./img/shutdownvm.png)
