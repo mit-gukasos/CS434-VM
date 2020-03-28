@@ -24,7 +24,8 @@
 ![](./img/snap.png)  
 
 In the new window give it a descriptive name (I used "Default State") and click OK.  
-![](./img/snap2.png) 
+![](./img/snap2.png)  
+
 8) You are done! SQL Developer, SQL Plus shortcuts, and CS434-specific files are available on the desktop of the virtual machine. 
 9) When you are finished using virtual machine, in order to close it click on "Start" -> Shutdown
 ![](./img/shutdownvm.png)
