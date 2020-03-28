@@ -4,7 +4,7 @@
 * [Linux](https://www.virtualbox.org/wiki/Linux_Downloads)
 
 ## Download virtual machine appliance here:
-* [CS434-OracleSQL-W7x64VM.ova](https://studentlaccd-my.sharepoint.com/:u:/g/personal/gukasos_laccd_edu/EXG8mnINdJdOujL4aq_tA1kBxkoSHLGjOWqQI5xiH8f6gA?e=eb6QQ6)
+* [CS434-OracleSQL-W7x64VM.ova](https://studentlaccd-my.sharepoint.com/:u:/g/personal/gukasos_laccd_edu/EXG8mnINdJdOujL4aq_tA1kBxkoSHLGjOWqQI5xiH8f6gA?e=eb6QQ6) (11.5GB)
 
 ## Instructions:
 1) Download and install Virtualbox using one of the links above.
@@ -20,20 +20,27 @@
 
     Leave the rest as-is, click "**Import**", and wait few minutes for the process to finish.
 6) After the import process is complete, you will see your virutual machine instance appear on the left hand side of Virtualbox as **LA Mission CS434 - Oracle 12c - Windows 7 Enterprise x64 VM**. Click on it, and click **Start** on the main ribbon. ![](./img/start.png)
-7) After your machine boots, it is a good practice to take a snapshot. Snapshots are useful in case you break something, and want to quickly go back to last working state. The advantage of snapshots is they take only a few seconds to capture/recover. To take a snapshot, in a virtual machine window click on **Machine** -> **Take Snapshot** ![](./img/snap.png) 
-In the new window give it a descriptive name (I used "Default State") and click OK. ![](./img/snap2.png) 
+7) After your machine boots, it is a good practice to take a snapshot. Snapshots are useful in case you break something, and want to quickly go back to last working state. The advantage of snapshots is they take only a few seconds to capture/recover. To take a snapshot, in a virtual machine window click on **Machine** -> **Take Snapshot** 
+![](./img/snap.png) 
+In the new window give it a descriptive name (I used "Default State") and click OK. 
+![](./img/snap2.png) 
 8) You are done! SQL Developer, SQL Plus shortcuts, and CS434-specific files are available on the desktop of the virtual machine. 
 9) When you are finished using virtual machine, in order to close it click on "Start" -> Shutdown
 ![](./img/shutdownvm.png)
 
 # FAQ
 ## I did something and now my database is broken! How do I recover?
-This is where snapshots come into play. In this example I accidentally deleted CS434 connection from SQL Developer. ![](./img/cs434msng.png)
+This is where snapshots come into play. In this example I accidentally deleted CS434 connection from SQL Developer. 
+
+![](./img/cs434msng.png)
 In order to restore a snapshot, while your virtual machine is running, inside the virtual machine window click **File** -> **Close...** 
+
 ![](./img/fileclose.png)
 Select "**Restore current snapshot to 'Default State'**", and click OK
+
 ![](./img/restoresnap.png)
 After your virtual machine shuts down, start it again from Virtualbox by double clicking on the Virtual Machine on the left hand panel. You will see a brief status window for restoration process. After snapshot recovers, if we check SQL Developer we will find CS434 is back as if nothing ever happened!
+
 ![](./img/snapsuccess.png)
 
 ## I did something and now the whole VM is broken, and snapshots cannot fix it(or I never took a working snapshot)! What can I do?
