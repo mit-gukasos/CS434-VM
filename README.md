@@ -33,12 +33,15 @@ In the new window give it a descriptive name (I used "Default State") and click 
 This is where snapshots come into play. In this example I accidentally deleted CS434 connection from SQL Developer. 
 
 ![](./img/cs434msng.png)
+
 In order to restore a snapshot, while your virtual machine is running, inside the virtual machine window click **File** -> **Close...** 
 
 ![](./img/fileclose.png)
+
 Select "**Restore current snapshot to 'Default State'**", and click OK
 
 ![](./img/restoresnap.png)
+
 After your virtual machine shuts down, start it again from Virtualbox by double clicking on the Virtual Machine on the left hand panel. You will see a brief status window for restoration process. After snapshot recovers, if we check SQL Developer we will find CS434 is back as if nothing ever happened!
 
 ![](./img/snapsuccess.png)
@@ -48,6 +51,7 @@ If you break the VM to a point where snapshots can not fix it, please follow the
 
 ## I accidentally set the wrong settings while importing the appliance. Can I still change them after importing?
 Yes. In VirtualBox, on the left hand panel, right click on the virtual machine -> **Settings**. You will find all the settings (and more) there.
+
 ![](./img/settings.png)
 
 ### Further help
